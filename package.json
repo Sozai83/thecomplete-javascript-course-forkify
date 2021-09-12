@@ -24,5 +24,10 @@
     "@babel/plugin-syntax-class-properties",
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-proposal-private-methods"
+  ],
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
   ]
 }
