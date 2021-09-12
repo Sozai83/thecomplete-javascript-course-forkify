@@ -155,6 +155,10 @@ const controlAddIngredients = function(){
   addIngredientView.AddIngredients();
 }
 
+const newfeature = function(){
+  console.log('Welcome to this application.')
+}
+
 const init = function(){
   bookmarksView.addHandler(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
@@ -165,6 +169,7 @@ const init = function(){
   addRecipeView.addHandlerUpload(controlAddRecipe);
   resultsView.addHandlerSortRecipe(controlSortSearchResult);
   addIngredientView.addHandlerAddIngredient(controlAddIngredients);
+  newfeature();
 };
 init();
 
