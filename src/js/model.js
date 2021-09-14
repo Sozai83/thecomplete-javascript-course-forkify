@@ -1,6 +1,5 @@
 import 'regenerator-runtime/runtime'
 import { async } from 'regenerator-runtime/runtime'
-import { async } from 'regenerator-runtime';
 import {API_Key, API_URL, MODAL_CLOSE_SEC, ResultsPerPage} from './config.js'
 import { AJAX } from './helpers.js'
 
