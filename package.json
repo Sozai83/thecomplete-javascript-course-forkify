@@ -4,23 +4,30 @@
   "description": "Recipe application",
   "default": "index.html",
   "scripts": {
-    "start": "parcel serve index.html",
+    "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Jonas Schedtmann",
   "license": "ISC",
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.13.0",
-    "@parcel/transformer-sass": "^2.0.0-nightly.646",
-    "parcel": "^2.0.0-nightly.644",
-    "sass": "^1.32.8"
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.26.10"
   },
   "dependencies": {
-    "core-js": "^3.10.1",
+    "core-js": "^3.6.5",
     "fractional": "^1.0.0",
     "regenerator-runtime": "^0.13.7"
   },
   "plugins": [
-    "@babel/plugin-proposal-class-properties"
+    "@babel/plugin-syntax-class-properties",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-private-methods"
+  ],
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
   ]
 }
