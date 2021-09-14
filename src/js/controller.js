@@ -11,6 +11,7 @@ import {MODAL_CLOSE_SEC} from './config.js'
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime/runtime';
+import { async } from 'regenerator-runtime';
 
 // https://forkify-api.herokuapp.com/v2
 
